@@ -3,7 +3,7 @@ export default function Event (){
         alert('Click!!!!')
     }
 return <div>
-    <button onClick={handleClick}>Click</button>
+    <button onClick={handleClick}>Click me</button>
 </div>
 }
 
