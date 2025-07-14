@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import FirstComponent from './firstcomponent/FirstComponent';
 import Counter from './counter/Counter';
+import Event from './Events/Event';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,7 @@ root.render(
     </FirstComponent>
 
     <Counter/>
+    <Event/>
   </React.StrictMode>
 );
 
